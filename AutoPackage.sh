@@ -78,8 +78,8 @@ timeTransformation $cost_time "打包"
 
 # 自动上传蒲公英(这里的 uKey、_api_key)获取地址为 https://www.pgyer.com/doc/api#uploadApp
 ################## 配置上传参数 _api_key、uKey Start ########
-pgy_api_key="650b285e9bad6bb4efcbfc94d58ac53a"
-pgy_ukey="1afad5df91e7d7482b247ea1f7305e29"
+pgy_api_key="650b285e9ba 这里自己去查你的_api_key c94d58ac53a"
+pgy_ukey="1afad5df91 这里自己去查你的_ukey f7305e29"
 ################## 配置蒲公英上传参数 End ####################
 # 开始上传
 echo "============ 正在上传 "${d_filename}" 到蒲公英 ======="
