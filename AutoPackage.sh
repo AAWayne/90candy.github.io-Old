@@ -70,9 +70,8 @@ rm -r ${pro_name}.xcarchive
 echo "============ "${d_filename}" 打包完成 ======="
 # 打包结束时间
 end_time=$(date +%s)
-# 计算打包时间
+# 计算打包时间(秒：s)
 cost_time=$[$end_time - $begin_time]
-
 #调用时间转换函数
 timeTransformation $cost_time "打包"
 
@@ -89,9 +88,8 @@ echo "============ 上传结束 ======="
 
 # 上传结束时间
 upload_end_time=$(date +%s)
-# 计算上传时间
+# 计算上传时间(秒：s)
 upload_time=$[$upload_end_time - $end_time]
-
 #调用时间转换函数
-timeTransformation $cost_time "上传蒲公英"
+timeTransformation $upload_time "上传蒲公英"
 
